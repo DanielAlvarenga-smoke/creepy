@@ -8,15 +8,28 @@ main {
     border: 3px solid #FF0000;
     width: 1000px;
     margin: auto;
-    padding: 12px 8px 12px 8px;
-    box-shadow: 20px 25px 70px #FF0000;
+    padding: 16px 12px 16px 12px;
+    box-shadow: 1px 5px 7px 15px #ff0000;
     margin-bottom: 30px;
+}
+
+
+.nada {
+    height: 60px;
+}
+
+fieldset {
+    border: 1px solid #35FF69;
 }
 
 * {
     border: 0px;
     margin: 0px;
     padding: 0px;
+}
+
+div {
+    text-indent: 5%;
 }
 
 nav {
@@ -97,7 +110,7 @@ nav>ul>li:hover {
 }
 
 nav>ul>li:hover>a {
-    color: #FFFFFF  ;
+    color: #FFFFFF;
 }
 
 ol {}

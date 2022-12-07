@@ -12,19 +12,19 @@
 
 
 <body>
-    
+
     <script>
         function pode() {
             var confirma = window.confirm("Este é um conteúdo sensível tem mais de 18 anos?");
-            if(confirma) {
+            if (confirma) {
                 window.alert("Bem vindo")
             }
             else {
-                window.location.href="https://www.youtube.com/watch?v=r1mhT5hEWFg";
+                window.location.href = "https://www.youtube.com/watch?v=r1mhT5hEWFg";
             }
         }
 
-        pode();
+
 
 
     </script>
@@ -36,7 +36,7 @@
                 <a href="index.html">Página inicial</a>
             </li>
             <li>
-                <a href="picapau.html">Pica-pau</a>
+                <a href="picapau.html" rel="next">Pica-pau</a>
             </li>
             <li>
                 <a href="gumball.html">Gumball</a>
@@ -63,38 +63,45 @@
 
         </ul>
     </nav>
-    <br>
+    <div class="nada"></div>
     <main>
 
         <p>Creepypasta é um termo criado para definir as histórias de terror ou lendas urbanas que são divulgadas
             através da
-            internet em fóruns e demais redes sociais de modo “viral”, espalhando-se rapidamente no universo online.</p>
-        <p>As creepypastas são narrações escritas de modo bastante envolvente normalmente relacionadas com conteúdos ou
-        <p>produtos da cultura pop, como músicas, filmes, videogames, personagens de desenhos animados, etc.</p>
-        <p> Diferentemente das lendas urbanas, as creepypastas, muitas vezes, são suplementadas com fotos, áudio ou
-            vídeo</p>
-        referente à historia para enriquecer seu conteúdo, aumentando assim seu efeito sobre o leitor</p>
-        <br>
+            internet em fóruns e demais redes sociais de modo “viral”, espalhando-se rapidamente no universo online.
+            As creepypastas são narrações escritas de modo bastante envolvente normalmente relacionadas com conteúdos ou
+            produtos da cultura pop, como músicas, filmes, videogames, personagens de desenhos animados, etc.
+            Diferentemente das lendas urbanas, as creepypastas, muitas vezes, são suplementadas com fotos, áudio ou
+            vídeo
+            referente à historia para enriquecer seu conteúdo, aumentando assim seu efeito sobre o leitor</p>
+
         <p>Abaixo música muito instigante e de suspense do pica-pau</p>
-        <audio controls preload="metadata" loop>
-            <source src="multimidia/picamp3.mp3" type="audio/mpeg">
-            <source src="multimidia/picaogg.ogg" type="audio/ogg">
-            <source src="multimidia/picawav.wav" type="audio/wav">
-            <p>Erro, não foi possível carregar esse arquivo</p>
-        </audio>
+        <div>
+            <audio controls preload="metadata" loop>
+                <source src="multimidia/picamp3.mp3" type="audio/mpeg">
+                <source src="multimidia/picaogg.ogg" type="audio/ogg">
+                <source src="multimidia/picawav.wav" type="audio/wav">
+                <p>Erro, não foi possível carregar esse arquivo</p>
+            </audio>
+        </div>
         <picture>
             <source media="(max-width: 750px)" srcset="imagens/creepp.jpg">
             <source media="(max-width: 1050px)" srcset="imagens/creepm.jpg">
             <img src="imagens/creepg.jpg" alt="Pica-pau demonio">
         </picture>
-        <audio controls preload="metadata" loop>
-            <source src="multimidia/uaump3.mp3" type="audio/mpeg">
-            <source src="multimidia/uauogg.ogg" type="audio/ogg">
-            <source src="multimidia/uauwav.wav" type="audio/wav">
-            <p>Erro, não foi possível carregar esse arquivo</p>
-        </audio>
+        <div>
+            <audio controls preload="metadata" loop>
+                <source src="multimidia/uaump3.mp3" type="audio/mpeg">
+                <source src="multimidia/uauogg.ogg" type="audio/ogg">
+                <source src="multimidia/uauwav.wav" type="audio/wav">
+                <p>Erro, não foi possível carregar esse arquivo</p>
+            </audio>
+        </div>
         <p>Saiba mais sobre creepypasta</p>
         <p><a href="multimidia/pasta.pdf" download="pasta.pdf" type="application/pdf"> Baixe o pdf aqui</a></p>
+        <h2>Além disso você pode visitar esse site para ler sobre creepypasta</h2>
+        <p><a href="https://aminoapps.com/c/creepypastabr_pt/page/blog/creepypastas-curiosidades/g025_pYdS6uq81nXGaq4ExeowpexNbQ3XYn#:~:text=As%20creepypastas%20mais%20conhecidas%2C%20como,em%20uma%20imagem%20de..."
+                target="_blank">Clique aqui</a></p>
     </main>
 </body>
 
